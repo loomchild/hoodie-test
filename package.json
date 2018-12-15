@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "hoodie"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "hapi": "^17.7.0",
     "hoodie": "^28.2.6",
-    "now": "^12.1.12"
+    "nock": "^10.0.4",
+    "pouchdb-replication": "^7.0.0",
+    "supports-color": "^5.5.0"
   }
 }
